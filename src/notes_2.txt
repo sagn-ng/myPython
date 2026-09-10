@@ -13,11 +13,15 @@ Dictionary is a collection which is ordered** and changeable. No duplicate membe
     +   contains changeable elements
     +   allows duplicates
 
-    A list can contain any different data types
+    A list can contain any different data type
 
 - Print a list, e.g: print(myList)
 - Accessing items work the same as in string
-- Changing a range of items is alo available, not only changing single ones
+- Changing a range of items is available, not only changing single ones
 - Adding items: append(itemName); insert(idx, itemName)
 - Removing items: remove(itemName); pop(idx) (last item by defalut);
 - Clear a list: clear() method
+- List comprehension:  listName = [<expression> for <item> in <iterable> if <condition>]
+- Sort: sort()
+- Copy: copy()
+- Join: append(), '+', '[:]'
