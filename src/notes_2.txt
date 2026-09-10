@@ -25,3 +25,14 @@ Dictionary is a collection which is ordered** and changeable. No duplicate membe
 - Sort: sort()
 - Copy: copy()
 - Join: append(), '+', '[:]'
+
+* Tuple:
+- A tuple is created using curly brackets (optional) "()"
+A tuple is a collection which is ordered and unchangeable.
+    + 0-indexed, ordered, unchangeable, allows duplicates.
+
+- Items in a tuple are accessed by their indices (the same as in a list)
+- A tuple is immutable (cannot change its values and size)
+- When creating a tuple, we assign values to it -> packing. We're allowed to extract those
+values into variables -> unpacking. (notice about the "*" case)
+- Join tuples: use '+' or "*" for multiplying
