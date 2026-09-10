@@ -1,0 +1,23 @@
+There are four collection data types in the Python programming language:
+
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+* List:
+- A list is created using square brackets "[]"
+    List is the same as
+    +   ordered (unchangeable generally)
+    +   0-indexed
+    +   contains changeable elements
+    +   allows duplicates
+
+    A list can contain any different data types
+
+- Print a list, e.g: print(myList)
+- Accessing items work the same as in string
+- Changing a range of items is alo available, not only changing single ones
+- Adding items: append(itemName); insert(idx, itemName)
+- Removing items: remove(itemName); pop(idx) (last item by defalut);
+- Clear a list: clear() method
