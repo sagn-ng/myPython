@@ -1,0 +1,91 @@
+- running a python file in the command line:
+python <fileName>.py
+
+- python indentation
+python uses indentation to indicate a block of code:
+the number of spaces in the same block of code must
+also be the same, and it has too be at least 1,
+otherwise, Python will give an error
+
+- text in python must be inside quotes, either "" or ''
+
+- python doesn't have a syntax for multiline comments,
+we can sipmly put # at the beginning of every line.
+However, we can use a multiple string (triple quotes)
+since python doesn't care about literal strings that
+aren't assigned to variables. E.g:
+//
+"""
+This is a comment
+written in
+more than just one line
+"""
+print("Hello, World!")
+//
+
+* Variables
+- variables doesn't need to be declared with a specific type, they
+can even be changed after getting set.
+
+- casting: if you want to specify a type of a variable, this can be done
+with casting, e.g: x=str(3) (x will be '3')
+
+- get the data type: use the type() func.
+
+- Python allows you to assign values to multiple variables in one line:
+(the number of vars. must match the number of vals., otherwise there's an error)
+e.g: x, y, z = "Orange", "Banana", "Cherry"
+Or you can assign multiple variables to the same value.
+
+- to concatenate values in a single print() line, use '+'
+
+* Strings
+- strings are surrounded by either "" or ''
+    To get the length of a string, use the len() func.
+    To check if a character or phrase exists in a string, use the keyword "in"
+
+- slicing strings:
+    +   s[i : j]   get the substring from index i to j-1
+    +   s[i :] get the substring from index i to the end
+    +   s[: j] get the substring from the start to index j-1
+    +   negative indexing: s[i : j] (i, j<0) get the slice from the end of the array"""
+
+    (but note that in all cases, i<=j)
+
+
+* Booleans:
+- The bool() function allows you to evaluate any value, and give you True or False in return.
+
+- Almost any value is evaluated to True if it has some sort of content.
+    +   Any string is True, except empty ones.
+    +   Any number is True, except 0.
+    +   Any list, tuple, set,.. are true except empty ones.
+
+- Exceptions: "empty values" such as () , [] , {} , None are False
+- The isinstance() function can be used to determine if an object is of a certain data type:
+    x = 20
+    print(isinstance(x, int)) #output: True
+
+
+* Operators:
+- Python 3.8 introduced the := operator, known as the "walrus operator".
+It assigns values to variables as part of a larger expression, e.g: print(x:=25)
+
+- Comparison operators: python allows us to chain comparisons, for example:
+    x = 10
+    print(5 < x < 20) #output: True
+
+- Logical operators: python has "and", "or", "not" instead of "&&", "||", "!"
+like in C, C++ or Java
+
+- Identity operators: the operators "is" and "is not" are used to identify if 2 variables
+point to the same object in memory (while "==" and "!=" just compare their values).
+E.g:    x, y = 20, 26
+        z = x
+        print(x is z, x is y, x==y) #output: True False True
+- Membership operators: "in" and "not in" are used to test if a sequence whose value is
+presented in an object
+- Arithmetic operators: division in python is different compared to C, C++, Java:
+    + "/" returns a float
+    + "//" returns an integer (rounded down);
+Python also has exponentation: x**y (it means x^y)
