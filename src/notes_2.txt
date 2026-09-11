@@ -36,3 +36,16 @@ A tuple is a collection which is ordered and unchangeable.
 - When creating a tuple, we assign values to it -> packing. We're allowed to extract those
 values into variables -> unpacking. (notice about the "*" case)
 - Join tuples: use '+' or "*" for multiplying
+
+* Set:
+- create a set with {}, or the set() constructor
+A set is a collection which is unordered, unchangeable (cannot change items' values), and unindexed.
+When printing a set, cannot sure in which order elements will be printed
+
+- Add: add()
+- Remove: remove() or discard()
+- Join sets: union(), difference(), intersection(),...
+- Copy a set: copy()
+- Clear: clear()
+
+- frozenset: an immutable version of a set: cannot add or remove elements
