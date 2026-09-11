@@ -49,3 +49,27 @@ When printing a set, cannot sure in which order elements will be printed
 - Clear: clear()
 
 - frozenset: an immutable version of a set: cannot add or remove elements
+
+* Dictionary: a dictionary stores items by key-value pairs
+A dictionary is a collection which is ordered*, changeable and does not allow duplicates.
+- Create a dictionary: use the {}, e.g:
+    thisdict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+    }
+    print(thisdict)
+
+- Access items by their keys, with '[]' or the get() method
+Extract the key set: keys() method; extract the value set: values() method;
+extract both (as tuples) in a list: items() method()
+
+- Update a key's value or add a new item: directly refer to that value with '[]', or use the
+update() method
+
+- Remove an item (by its key): use the pop() method
+    (the popitem() method removes the last inserted item)
+
+- Copy a dictionary: copy()
+
+- Clear the dictionary: clear()
