@@ -1,4 +1,5 @@
-* Python arguments: default paramter values, keyword arguments
+* Python functions:
+#default paramter values, keyword arguments
 - normal paramters when we write normal functions and normal arguments passed into them
 are called "positional arguments"
 - default paramter values:
@@ -48,3 +49,6 @@ are called "positional arguments"
 - Unpacking with * and **: When you have values stored in a list, use a * when
 passing that list to "unpack" its elements. Or when you have keyword arguments
 stored in a dictionary, use a ** to do the same thing.
+
+- decorators: read at https://www.geeksforgeeks.org/python/decorators-in-python/
+- lamba: https://www.geeksforgeeks.org/python/python-lambda-anonymous-functions-filter-map-reduce/
