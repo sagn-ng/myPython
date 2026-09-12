@@ -24,7 +24,7 @@ def printSum(*args):
 
 printSum(1,2,3,4,5,6,7)
 
-print("3.2: **kwargs") #used to accept any number of keyword arguments as a list
+print("\n3.2: **kwargs") #used to accept any number of keyword arguments as a list
 def my_function(**myvar):
   print("Type:", type(myvar)) #ouput: <class 'dict'>
   print("Name:", myvar["name"])

@@ -1,1 +1,50 @@
 * Python arguments: default paramter values, keyword arguments
+- normal paramters when we write normal functions and normal arguments passed into them
+are called "positional arguments"
+- default paramter values:
+    You can assign default values to parameters.
+    If the function is called without an argument, it uses the default value, e.g:
+        def sayHello(name="Sang"):
+            print("Hello", name)
+        sayHello("S") #output: "Hello S"
+        sayHello() #ouput: "Hello Sang"
+
+- keyword arguments:
+    You can send arguments with the key = value syntax.
+        def my_function(name, age):
+            print("My name is", name)
+            print("I am", age)
+    Using keyword arguments, the order of arguments doesn't matter, for example,
+    these two yield the same result:
+        my_function(name="Sang", age = 19)
+        my_function(age=19, name="Sang")
+
+- arbitrary arguments *args:
+    If you don't know how many arguments will be passed into the function,
+    add a * before the parameter name -> the function will receive a tuple of
+    arguments, e.g:
+
+    def printSum(*args):
+        print(type(args)) #output: <class 'tuple'>
+        sum=0
+        for x in args: sum+=x
+        print(sum)
+
+- arbitrary keyword arguments **kwargs:
+    when you don't know how many keyword arguments will be passed into the
+    function, add a ** before the parameter name -> the function will receive
+    a dictionary of arguments. But note that: the keys of that dict in the
+    function and keywords passed must match. E.g:
+        def my_function(**myvar):
+            print("Type:", type(myvar)) #ouput: <class 'dict'>
+            print("Name:", myvar["name"])
+            print("Age:", myvar["age"])
+
+        my_function(name = "Sang", age = 19)
+
+- Combining normal arguments, *args, **kwargs: the order must be:
+    normal args -> *args -> **kwargs
+
+- Unpacking with * and **: When you have values stored in a list, use a * when
+passing that list to "unpack" its elements. Or when you have keyword arguments
+stored in a dictionary, use a ** to do the same thing.
