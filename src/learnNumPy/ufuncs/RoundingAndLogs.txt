@@ -1,0 +1,2 @@
+read more at: https://www.w3schools.com/python/numpy/numpy_ufunc_rounding_decimals.asp
+and: https://www.w3schools.com/python/numpy/numpy_ufunc_logs.asp

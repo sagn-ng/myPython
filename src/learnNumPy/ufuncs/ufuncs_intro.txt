@@ -1,0 +1,7 @@
+- NumPy ufuncs (universal functions) are fast, vectorized functions
+that perform element-wise operations on NumPy arrays.
+- They are highly optimized and support features like broadcasting and automatic type handling.
+- NumPy includes many ufuncs for arithmetic, trigonometry, statistics, etc, and they execute
+operations very fast because they are implemented in optimized C code.
+
+*read about some ufuncs in NumPy at: https://www.geeksforgeeks.org/python/numpy-ufunc/
