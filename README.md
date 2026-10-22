@@ -5,3 +5,5 @@ so i decided to make a brand new one on github that you're seeing now :> <br><br
 Note: I have finished some basic knowledge of python, now i'm moving to libraries for scientific computing, like <i>numpy, pandas, matplotlib</i>.<br>
 - Done <i>numpy</i> in Septemper 2026
 - Started <i>pandas</i> in October
+
+Note_2: I also implemented Jupyter Notebook to make it easier for both coding and documenting.
