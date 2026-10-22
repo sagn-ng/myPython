@@ -1,1 +1,7 @@
 /.vscode/
+/Include/
+/Lib/
+/Scripts/
+pyvenv.cfg
+/etc/
+/share/
