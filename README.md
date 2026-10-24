@@ -6,4 +6,13 @@ Note: I have finished some basic knowledge of python, now i'm moving to librarie
 - Done <i>numpy</i> in Septemper 2026
 - Started <i>pandas</i> in October
 
-Note_2: I also implemented Jupyter Notebook to make it easier for both coding and documenting.
+ <p>Note 2:
+<ul>
+   <li>I also implemented Jupyter Notebook to make it easier for both coding and documenting.</li>
+  <li>My learning resources:<br>
+    - https://www.kaggle.com/learn/pandas <i>(main)</i><br>
+    - https://www.geeksforgeeks.org/pandas/pandas-tutorial/ <br>
+    - https://www.w3schools.com/python/pandas/default.asp
+  </li>
+</ul>
+</p>
