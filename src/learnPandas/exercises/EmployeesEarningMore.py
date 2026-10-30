@@ -1,5 +1,5 @@
 import pandas as pd
-#see the problem leetcode 181: employees earning more than their manages
+#see the problem leetcode 181: employees earning more than their managers
 def find_employees(employee: pd.DataFrame) -> pd.DataFrame:
     emplList=[]
 
